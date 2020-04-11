@@ -164,6 +164,10 @@ derivata_terapia_intensiva_R = derivata(terapia_intensiva_R)
 derivata_terapia_intensiva_N = derivata(terapia_intensiva_N)
 
 """
+This was optimized for running on a Ubuntu window, via web it may not be optimal. Minor graphical adjustment may be required.
+"""
+
+"""
 In the following you can modify what you want. Those are the data I thought were more relevant.
 You just need to change the list name, and eventually the x-axis list if you want to perform a cross-data analysis and not the temporal evolution of a single list (e.g. death vs. total cases)
 """
