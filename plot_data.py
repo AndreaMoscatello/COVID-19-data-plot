@@ -163,6 +163,11 @@ derivata_ricoverati_con_sintomi_N = derivata(ricoverati_con_sintomi_N)
 derivata_terapia_intensiva_R = derivata(terapia_intensiva_R)
 derivata_terapia_intensiva_N = derivata(terapia_intensiva_N)
 
+"""
+In the following you can modify what you want. Those are the data I thought were more relevant.
+You just need to change the list name, and eventually the x-axis list if you want to perform a cross-data analysis and not the temporal evolution of a single list (e.g. death vs. total cases)
+"""
+
 # plots
 plt.figure()
 plt.subplot(2, 2, 1)
