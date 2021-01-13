@@ -51,8 +51,8 @@ def analisi_nazionale():
                         nuovi_positivi_N.append(int(linea[8]))
                         dimessi_guariti_N.append(int(linea[9]))
                         deceduti_N.append(int(linea[10]))
-                        totale_casi_N.append(int(linea[11]))
-                        tamponi_N.append(int(linea[12]))
+                        totale_casi_N.append(int(linea[13]))
+                        tamponi_N.append(int(linea[14]))
     return(ricoverati_con_sintomi_N, terapia_intensiva_N, totale_ospedalizzati_N, \
     isolamento_domiciliare_N, totale_positivi_N, variazione_totale_positivi_N, nuovi_positivi_N, dimessi_guariti_N, deceduti_N, totale_casi_N, tamponi_N)
 
@@ -90,8 +90,8 @@ def analisi_regione(regione):
                         nuovi_positivi_R.append(int(linea[12]))
                         dimessi_guariti_R.append(int(linea[13]))
                         deceduti_R.append(int(linea[14]))
-                        totale_casi_R.append(int(linea[15]))
-                        tamponi_R.append(int(linea[16]))
+                        totale_casi_R.append(int(linea[17]))
+                        tamponi_R.append(int(linea[18]))
     return(ricoverati_con_sintomi_R, terapia_intensiva_R, totale_ospedalizzati_R, \
     isolamento_domiciliare_R, totale_positivi_R, variazione_totale_positivi_R, nuovi_positivi_R, dimessi_guariti_R, deceduti_R, totale_casi_R, tamponi_R)
 
@@ -249,6 +249,10 @@ plt.xlabel("Giorni")
 plt.xticks(fontsize = 3, rotation=90)
 plt.ylabel("casi")
 plt.legend()
+
+plt.tight_layout()
+
+
 
 plt.tight_layout()
 plt.show()
