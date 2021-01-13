@@ -3,7 +3,8 @@
 # DATA REPOSITORY: https://github.com/pcm-dpc/COVID-19
 
 # By Andrea Moscatello,
-# last update 11/04/2020 (my birthday, yay)
+# First release: 11/04/2020
+# Last update: 13/01/2021
 # https://sites.google.com/view/a-moscatello/home
 # ---------------------------------------------------------------------------------------------
 
